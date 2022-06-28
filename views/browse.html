@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChaosLearns</title>
+    <link rel="stylesheet" href="browse.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <div id="nav" class="nav">
+      <a href="index.ejs"
+        ><img class="nav__logo" src="" alt=""
+      /></a>
+      <div class="nav-subcontent">
+        <h3><a href="#">Dashboard</a></h3>
+        <h3><a href="#">Progress</a></h3>
+      </div>
+    </div>
+
+    <!-- header -->
+    <header class="banner">
+      <div class="banner__contents">
+        <h1 class="banner__title">Explore the Learning Universe</h1>
+
+        <h1 class="banner__description">
+          The most important principle for designing lively eLearning is to see eLearning design not as information design but as designing an experience.
+        </h1>
+
+        <div id="light">
+          <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+          <video id="VisaChipCardVideo" controls>
+            <source
+              src="SD.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+
+        <div id="fade" onClick="lightbox_close();"></div>
+
+      </div>
+      <div class="banner--fadeBottom"></div>
+    </header>
+
+    <!-- Software Development -->
+    <div class="row1">
+      <h2>Software Development</h2>
+      <div class="row__posters">
+        <button onclick="w3.toggleShow('.description')">
+          <img
+            class="row__poster row__posterLarge"
+            src="js.png"
+            alt=""
+          />
+        </button>
+
+        <button onclick="w3.toggleShow('.description')">
+          <img
+            class="row__poster row__posterLarge"
+            src="php.png"
+            alt=""
+          />
+        </button>
+
+        <button onclick="w3.toggleShow('.description')">
+          <img
+            class="row__poster row__posterLarge"
+            src="css.png"
+            alt=""
+          />
+        </button>
+
+        <button onclick="w3.toggleShow('.description')">
+          <img
+            class="row__poster row__posterLarge"
+            src="html.png"
+            alt=""
+          />
+        </button>
+        </button>
+      </div>
+      <div class="description hide">
+        <p>
+          Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying and supporting software.
+          Software itself is the set of instructions or programs that tell a computer what to do. It is independent of hardware and makes computers programmable.
+        </p><div class="banner__buttons">
+          <button class="banner__button" onclick="lightbox_open();">
+            Demo
+          </button>
+
+      </div>
+    </div>
+
+    <!-- data analysis -->
+    <div class="row2">
+      <h2 id="series">Data Analysis</h2>
+      <div class="row__posters">
+        <button onclick="w3.toggleShow('.description1')">
+          <img class="row__poster" src="py.png" alt="" />
+        </button>
+        <button onclick="w3.toggleShow('.description1')">
+          <img class="row__poster" src="jupy.png" alt="" />
+        </button>
+        <button onclick="w3.toggleShow('.description1')">
+          <img class="row__poster" src="go.png" alt="" />
+        </button>
+        <button onclick="w3.toggleShow('.description1')">
+          <img class="row__poster" src="cpp.png" alt="" />
+        </button>
+      </div>
+      <div class="description1 hide">
+        <p>
+          Data analysis is a process of inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information, informing conclusions,
+          and supporting decision-making.[1] Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names,
+          and is used in different business, science, and social science domains.[2] In today's business world,
+          data analysis plays a role in making decisions more scientific and helping businesses operate more effectively
+        </p><div class="banner__buttons">
+          <button class="banner__button" onclick="lightbox_open();">
+            Demo
+          </button>
+      </div>
+    </div>
+
+    <!-- Marketing & Sales -->
+    <div class="row3">
+      <h2>Marketing & Sales</h2>
+      <div class="row__posters">
+        <button onclick="w3.toggleShow('.description2')">
+          <img class="row__poster" src="log.webp" alt="" />
+        </button>
+        <button onclick="w3.toggleShow('.description2')">
+          <img class="row__poster" src="dp.png" alt="" />
+        </button>
+        <button onclick="w3.toggleShow('.description2')">
+          <img class="row__poster" src="digi.webp" alt="" />
+        </button>
+        <button onclick="w3.toggleShow('.description2')">
+          <img class="row__poster" src="gds.jpg" alt="" />
+        </button>
+
+      </div>
+      <div class="description2 hide">
+        <p>
+          Sales and marketing are two business functions within an organization -- they both impact lead generation and revenue.
+          The term, sales, refers to all activities that lead to the selling of goods and services.
+          And marketing is the process of getting people interested in the goods and services being sold
+        </p><div class="banner__buttons">
+          <button class="banner__button" onclick="lightbox_open();">
+            Demo
+          </button>
+        <img src="images/365.jpg" alt="" />
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <p>Questions? Call 1-866-579-7172</p>
+      <div class="footer-cols">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Ways To Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Original Courses</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Redeem Gift Cards</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Buy Gift Cards</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="browse.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+  </body>
+</html>
